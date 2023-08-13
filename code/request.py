@@ -1,0 +1,5 @@
+import requests
+
+api_url = 'http://127.0.0.1:9090/config.yaml'
+
+response = requests.get(api_url)
